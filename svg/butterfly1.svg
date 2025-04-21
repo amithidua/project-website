@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="butterfly1Gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFB3BA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C3B1E1;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  <g transform="translate(50 50)">
+    <!-- Left wing -->
+    <path d="M-5,0 C-20,-20 -40,-15 -45,-30 C-50,-50 -30,-45 -20,-40 C-10,-30 -5,-20 0,-10 Z" fill="url(#butterfly1Gradient)" opacity="0.9">
+      <animate attributeName="d" dur="3s" repeatCount="indefinite" values="
+        M-5,0 C-20,-20 -40,-15 -45,-30 C-50,-50 -30,-45 -20,-40 C-10,-30 -5,-20 0,-10 Z;
+        M-5,0 C-25,-25 -35,-20 -40,-30 C-45,-45 -25,-40 -15,-35 C-8,-25 -4,-15 0,-8 Z;
+        M-5,0 C-20,-20 -40,-15 -45,-30 C-50,-50 -30,-45 -20,-40 C-10,-30 -5,-20 0,-10 Z"
+      />
+    </path>
+    
+    <!-- Right wing -->
+    <path d="M5,0 C20,-20 40,-15 45,-30 C50,-50 30,-45 20,-40 C10,-30 5,-20 0,-10 Z" fill="url(#butterfly1Gradient)" opacity="0.9">
+      <animate attributeName="d" dur="3s" repeatCount="indefinite" values="
+        M5,0 C20,-20 40,-15 45,-30 C50,-50 30,-45 20,-40 C10,-30 5,-20 0,-10 Z;
+        M5,0 C25,-25 35,-20 40,-30 C45,-45 25,-40 15,-35 C8,-25 4,-15 0,-8 Z;
+        M5,0 C20,-20 40,-15 45,-30 C50,-50 30,-45 20,-40 C10,-30 5,-20 0,-10 Z"
+      />
+    </path>
+    
+    <!-- Left lower wing -->
+    <path d="M-5,0 C-15,15 -30,20 -30,35 C-25,45 -15,40 -10,30 C-5,20 -3,10 0,5 Z" fill="url(#butterfly1Gradient)" opacity="0.7">
+      <animate attributeName="d" dur="3.5s" repeatCount="indefinite" values="
+        M-5,0 C-15,15 -30,20 -30,35 C-25,45 -15,40 -10,30 C-5,20 -3,10 0,5 Z;
+        M-5,0 C-20,15 -25,25 -25,35 C-20,40 -10,35 -8,25 C-4,15 -2,8 0,4 Z;
+        M-5,0 C-15,15 -30,20 -30,35 C-25,45 -15,40 -10,30 C-5,20 -3,10 0,5 Z"
+      />
+    </path>
+    
+    <!-- Right lower wing -->
+    <path d="M5,0 C15,15 30,20 30,35 C25,45 15,40 10,30 C5,20 3,10 0,5 Z" fill="url(#butterfly1Gradient)" opacity="0.7">
+      <animate attributeName="d" dur="3.5s" repeatCount="indefinite" values="
+        M5,0 C15,15 30,20 30,35 C25,45 15,40 10,30 C5,20 3,10 0,5 Z;
+        M5,0 C20,15 25,25 25,35 C20,40 10,35 8,25 C4,15 2,8 0,4 Z;
+        M5,0 C15,15 30,20 30,35 C25,45 15,40 10,30 C5,20 3,10 0,5 Z"
+      />
+    </path>
+    
+    <!-- Body -->
+    <path d="M0,-15 Q1,-8 0,0 Q-1,10 0,20 Q1,30 0,40" stroke="#C3B1E1" stroke-width="2" fill="none"/>
+    
+    <!-- Antenna -->
+    <path d="M0,-15 Q-8,-25 -15,-30" stroke="#C3B1E1" stroke-width="1" fill="none"/>
+    <path d="M0,-15 Q8,-25 15,-30" stroke="#C3B1E1" stroke-width="1" fill="none"/>
+    <circle cx="-15" cy="-30" r="1.5" fill="#FFD700"/>
+    <circle cx="15" cy="-30" r="1.5" fill="#FFD700"/>
+  </g>
+</svg>

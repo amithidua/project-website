@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="flowerGradient1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFB3BA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C3B1E1;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="flowerGradient2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#B5EAD7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE9F3;stop-opacity:0.8" />
+    </radialGradient>
+    <radialGradient id="flowerGradient3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB3BA;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main circular frame -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#B5EAD7" stroke-width="3" stroke-dasharray="5,3" opacity="0.5" />
+  
+  <!-- Flower cluster 1 (top) -->
+  <g transform="translate(250, 50)">
+    <!-- Main flower -->
+    <g>
+      <circle cx="0" cy="0" r="25" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="-25" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="17.7" cy="-17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="25" cy="0" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="17.7" cy="17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="25" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="-17.7" cy="17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="-25" cy="0" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="-17.7" cy="-17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="0" r="10" fill="#FFD700" />
+    </g>
+    
+    <!-- Small flowers -->
+    <g transform="translate(-30, 20)">
+      <circle cx="0" cy="0" r="8" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="-8" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="5.7" cy="-5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="8" cy="0" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="5.7" cy="5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="8" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="-5.7" cy="5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="-8" cy="0" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="-5.7" cy="-5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="0" r="3" fill="#FFD700" />
+    </g>
+    
+    <g transform="translate(30, 20)">
+      <circle cx="0" cy="0" r="10" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="-10" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="7.1" cy="-7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="10" cy="0" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="7.1" cy="7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="10" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-7.1" cy="7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-10" cy="0" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-7.1" cy="-7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="0" r="4" fill="#FFD700" />
+    </g>
+    
+    <!-- Leaves -->
+    <path d="M-40,10 Q-30,0 -40,-10 Q-20,0 -40,10" fill="#B5EAD7" opacity="0.8" />
+    <path d="M40,10 Q30,0 40,-10 Q20,0 40,10" fill="#B5EAD7" opacity="0.8" />
+  </g>
+  
+  <!-- Flower cluster 2 (right) -->
+  <g transform="translate(450, 250)">
+    <!-- Main flower -->
+    <g>
+      <circle cx="0" cy="0" r="25" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="-25" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="17.7" cy="-17.7" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="25" cy="0" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="17.7" cy="17.7" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="25" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="-17.7" cy="17.7" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="-25" cy="0" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="-17.7" cy="-17.7" r="15" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="0" r="10" fill="#FFD700" />
+    </g>
+    
+    <!-- Small flowers -->
+    <g transform="translate(-30, -20)">
+      <circle cx="0" cy="0" r="8" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="-8" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="5.7" cy="-5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="8" cy="0" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="5.7" cy="5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="8" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="-5.7" cy="5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="-8" cy="0" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="-5.7" cy="-5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="0" r="3" fill="#FFD700" />
+    </g>
+    
+    <g transform="translate(-20, 30)">
+      <circle cx="0" cy="0" r="10" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="-10" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="7.1" cy="-7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="10" cy="0" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="7.1" cy="7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="10" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-7.1" cy="7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-10" cy="0" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-7.1" cy="-7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="0" r="4" fill="#FFD700" />
+    </g>
+    
+    <!-- Leaves -->
+    <path d="M-10,40 Q0,30 10,40 Q0,20 -10,40" fill="#B5EAD7" opacity="0.8" />
+    <path d="M-10,-40 Q0,-30 10,-40 Q0,-20 -10,-40" fill="#B5EAD7" opacity="0.8" />
+  </g>
+  
+  <!-- Flower cluster 3 (bottom) -->
+  <g transform="translate(250, 450)">
+    <!-- Main flower -->
+    <g>
+      <circle cx="0" cy="0" r="25" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="-25" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="17.7" cy="-17.7" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="25" cy="0" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="17.7" cy="17.7" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="25" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="-17.7" cy="17.7" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="-25" cy="0" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="-17.7" cy="-17.7" r="15" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="0" r="10" fill="#FFD700" />
+    </g>
+    
+    <!-- Small flowers -->
+    <g transform="translate(30, -20)">
+      <circle cx="0" cy="0" r="8" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="-8" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="5.7" cy="-5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="8" cy="0" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="5.7" cy="5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="8" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="-5.7" cy="5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="-8" cy="0" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="-5.7" cy="-5.7" r="5" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="0" r="3" fill="#FFD700" />
+    </g>
+    
+    <g transform="translate(-30, -20)">
+      <circle cx="0" cy="0" r="10" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="-10" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="7.1" cy="-7.1" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="10" cy="0" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="7.1" cy="7.1" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="10" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="-7.1" cy="7.1" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="-10" cy="0" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="-7.1" cy="-7.1" r="6" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="0" r="4" fill="#FFD700" />
+    </g>
+    
+    <!-- Leaves -->
+    <path d="M-40,-10 Q-30,0 -40,10 Q-20,0 -40,-10" fill="#B5EAD7" opacity="0.8" />
+    <path d="M40,-10 Q30,0 40,10 Q20,0 40,-10" fill="#B5EAD7" opacity="0.8" />
+  </g>
+  
+  <!-- Flower cluster 4 (left) -->
+  <g transform="translate(50, 250)">
+    <!-- Main flower -->
+    <g>
+      <circle cx="0" cy="0" r="25" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="-25" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="17.7" cy="-17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="25" cy="0" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="17.7" cy="17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="25" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="-17.7" cy="17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="-25" cy="0" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="-17.7" cy="-17.7" r="15" fill="url(#flowerGradient1)" />
+      <circle cx="0" cy="0" r="10" fill="#FFD700" />
+    </g>
+    
+    <!-- Small flowers -->
+    <g transform="translate(30, 20)">
+      <circle cx="0" cy="0" r="8" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="-8" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="5.7" cy="-5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="8" cy="0" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="5.7" cy="5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="8" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="-5.7" cy="5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="-8" cy="0" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="-5.7" cy="-5.7" r="5" fill="url(#flowerGradient2)" />
+      <circle cx="0" cy="0" r="3" fill="#FFD700" />
+    </g>
+    
+    <g transform="translate(20, -30)">
+      <circle cx="0" cy="0" r="10" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="-10" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="7.1" cy="-7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="10" cy="0" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="7.1" cy="7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="10" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-7.1" cy="7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-10" cy="0" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="-7.1" cy="-7.1" r="6" fill="url(#flowerGradient3)" />
+      <circle cx="0" cy="0" r="4" fill="#FFD700" />
+    </g>
+    
+    <!-- Leaves -->
+    <path d="M10,40 Q0,30 -10,40 Q0,20 10,40" fill="#B5EAD7" opacity="0.8" />
+    <path d="M10,-40 Q0,-30 -10,-40 Q0,-20 10,-40" fill="#B5EAD7" opacity="0.8" />
+  </g>
+  
+  <!-- Decorative vine elements -->
+  <path d="M90,150 Q120,110 150,90 Q180,70 250,50" fill="none" stroke="#B5EAD7" stroke-width="2" />
+  <path d="M90,350 Q120,390 150,410 Q180,430 250,450" fill="none" stroke="#B5EAD7" stroke-width="2" />
+  <path d="M350,90 Q390,120 410,150 Q430,180 450,250" fill="none" stroke="#B5EAD7" stroke-width="2" />
+  <path d="M350,410 Q390,380 410,350 Q430,320 450,250" fill="none" stroke="#B5EAD7" stroke-width="2" />
+  
+  <!-- Small decorative flowers along vines -->
+  <g transform="translate(120, 120)">
+    <circle cx="0" cy="0" r="5" fill="url(#flowerGradient1)" />
+    <circle cx="0" cy="-5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="3.5" cy="-3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="5" cy="0" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="3.5" cy="3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="0" cy="5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="-3.5" cy="3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="-5" cy="0" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="-3.5" cy="-3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="0" cy="0" r="2" fill="#FFD700" />
+  </g>
+  
+  <g transform="translate(380, 120)">
+    <circle cx="0" cy="0" r="5" fill="url(#flowerGradient2)" />
+    <circle cx="0" cy="-5" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="3.5" cy="-3.5" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="5" cy="0" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="3.5" cy="3.5" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="0" cy="5" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="-3.5" cy="3.5" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="-5" cy="0" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="-3.5" cy="-3.5" r="3" fill="url(#flowerGradient2)" />
+    <circle cx="0" cy="0" r="2" fill="#FFD700" />
+  </g>
+  
+  <g transform="translate(120, 380)">
+    <circle cx="0" cy="0" r="5" fill="url(#flowerGradient3)" />
+    <circle cx="0" cy="-5" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="3.5" cy="-3.5" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="5" cy="0" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="3.5" cy="3.5" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="0" cy="5" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="-3.5" cy="3.5" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="-5" cy="0" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="-3.5" cy="-3.5" r="3" fill="url(#flowerGradient3)" />
+    <circle cx="0" cy="0" r="2" fill="#FFD700" />
+  </g>
+  
+  <g transform="translate(380, 380)">
+    <circle cx="0" cy="0" r="5" fill="url(#flowerGradient1)" />
+    <circle cx="0" cy="-5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="3.5" cy="-3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="5" cy="0" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="3.5" cy="3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="0" cy="5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="-3.5" cy="3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="-5" cy="0" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="-3.5" cy="-3.5" r="3" fill="url(#flowerGradient1)" />
+    <circle cx="0" cy="0" r="2" fill="#FFD700" />
+  </g>
+  
+  <!-- Small decorations -->
+  <circle cx="170" cy="170" r="3" fill="#FFD700" opacity="0.8" />
+  <circle cx="330" cy="170" r="3" fill="#FFD700" opacity="0.8" />
+  <circle cx="170" cy="330" r="3" fill="#FFD700" opacity="0.8" />
+  <circle cx="330" cy="330" r="3" fill="#FFD700" opacity="0.8" />
+  
+  <circle cx="200" cy="140" r="2" fill="#FFD700" opacity="0.6" />
+  <circle cx="300" cy="140" r="2" fill="#FFD700" opacity="0.6" />
+  <circle cx="200" cy="360" r="2" fill="#FFD700" opacity="0.6" />
+  <circle cx="300" cy="360" r="2" fill="#FFD700" opacity="0.6" />
+  <circle cx="140" cy="200" r="2" fill="#FFD700" opacity="0.6" />
+  <circle cx="360" cy="200" r="2" fill="#FFD700" opacity="0.6" />
+  <circle cx="140" cy="300" r="2" fill="#FFD700" opacity="0.6" />
+  <circle cx="360" cy="300" r="2" fill="#FFD700" opacity="0.6" />
+</svg>
